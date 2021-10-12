@@ -1,0 +1,17 @@
+.imageName {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+    background-color: #ddd;
+    overflow: hidden;
+}
+
+.settingsBox {
+    position: relative;
+
+    .closeButton {
+        position: absolute;
+        right: 10px;
+        top: 10px;
+    }
+}

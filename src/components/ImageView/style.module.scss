@@ -1,0 +1,47 @@
+.imageViewbox {
+    position: relative;
+    display: inline-block;
+}
+
+.grid {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.viewBoxRow {
+    display: flex;
+    height: 100%;
+}
+
+.viewBoxCol {
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid red;
+    font-size: 12px;
+    overflow: hidden;
+    color: red;
+    cursor: pointer;
+    &:hover {
+        background-color: rgba(0,0,0,0.5);
+    }
+}
+
+.informationBar {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.selectedCol {
+    background-color: rgba(0,0,0,0.75);
+}
